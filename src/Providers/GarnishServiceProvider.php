@@ -1,6 +1,6 @@
 <?php
 
-namespace Culinaire\Garnish;
+namespace Culinaire\Garnish\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
