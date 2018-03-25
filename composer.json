@@ -1,0 +1,19 @@
+{
+  "name": "culinaire/garnish",
+  "description": "Laravel helpers and modifications",
+  "require": {
+    "illuminate/support": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Culinaire\\Garnish\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Culinaire\\Garnish\\Providers\\GarnishServiceProvider"
+      ]
+    }
+  }
+}
